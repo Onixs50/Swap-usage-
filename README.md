@@ -16,7 +16,7 @@ sudo mkswap /swapfile
 ```bash
 sudo swapon /swapfile
 ```
-##3 مرحله 5: افزودن فایل swap به /etc/fstab برای راه‌اندازی مجدد
+## مرحله 5: افزودن فایل swap به /etc/fstab برای راه‌اندازی مجدد
 ```bash
 echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 ```
